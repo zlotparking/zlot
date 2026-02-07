@@ -45,7 +45,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-[100] transition-all duration-500 ${
+      className={`fixed top-0 w-full z-\[100] transition-all duration-500 ${
         isScrolled ? 'glass-nav py-3' : 'bg-transparent py-6'
       }`}
     >
@@ -113,7 +113,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-[64px] bg-white z-[90] animate-in fade-in slide-in-from-top-4 duration-300">
+        <div className="md:hidden fixed inset-0 top-\[64px] bg-white z-\[90] animate-in fade-in slide-in-from-top-4 duration-300">
           <div className="flex flex-col p-8 space-y-6">
             {navLinks.map((link) => (
               <Link
