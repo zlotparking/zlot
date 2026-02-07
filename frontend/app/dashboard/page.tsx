@@ -80,7 +80,7 @@ export default function DashboardPage() {
                 ZLOT Dashboard
               </div>
               <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
-                Welcome back, Arjun.
+                Welcome back.
               </h1>
               <p className="text-lg text-slate-300 font-medium max-w-xl">
                 Track upcoming bookings, manage your listed spaces, and discover
